@@ -1,13 +1,17 @@
 #include <iostream>
+#include <stdio.h>
 
 int main()
 {
   int A;
   int B;
 
-  std::cin >> A;
-  std::cin >> B;
-  std::cout << "PROD = " << A * B << "\n";
+  printf("Write the first number: \t");
+  scanf("%d", &A);
+  printf("Write the second number: \t");
+  scanf("%d", &B);
+  int product = A * B;
+  printf("PROD = %d\n", product);
 
   return 0;
 }
