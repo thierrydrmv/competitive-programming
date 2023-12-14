@@ -3,11 +3,10 @@
 int main()
 {
 
-  float A;
-  float B;
+  float A, B;
+  scanf("%f", &A);
+  scanf("%f", &B);
+  printf("MEDIA = %.5f\n", (A * 3.5 + B * 7.5) / 11);
 
-  std::cin >> A;
-  std::cin >> B;
-  std::cout << "MEDIA = " << (A + B) / 2 << "\n";
   return 0;
 }
